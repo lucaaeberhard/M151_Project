@@ -8,7 +8,7 @@ export function render(movie) {
     <title>Movie list</title>
     <link rel="stylesheet" href=" /style.css" />
   </head>
-  <body class="col-12">d
+  <body class="col-12">
     <form action="/movie/save" method="post">
       <input type="hidden" id="id" name="id" value="${movie.id}" />
       <div>
@@ -28,6 +28,6 @@ export function render(movie) {
       </div>
     </form>
   </body>
-  </html>  
+  </html>
   `;
 }
